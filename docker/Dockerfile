@@ -1,5 +1,5 @@
-FROM openjdk:17
-WORKDIR /app
-COPY . /app
-EXPOSE 8080
-CMD ["java", "-jar", "app.jar"]
+FROM nginx:latest
+
+COPY app/index.html /usr/share/nginx/html/index.html
+
+EXPOSE 80
