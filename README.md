@@ -1,16 +1,9 @@
-# devops-cicd-pipeline-projectt
-End-to-End DevOps CI/CD Pipeline using Jenkins, Docker, Kubernetes, Terraform, Prometheus and Grafana
-# DevOps CI/CD Pipeline Project
+Project Architecture
 
-This project demonstrates an end-to-end DevOps pipeline.
-
-Tools Used:
-- GitHub
-- Jenkins
-- Docker
-- Kubernetes
-- Terraform
-- Azure
-
-Pipeline Flow:
 Developer → GitHub → Jenkins → Docker → Kubernetes
+
+Features
+- CI/CD pipeline automation
+- Docker containerization
+- Kubernetes deployment
+- Infrastructure as Code using Terraform
